@@ -1,0 +1,120 @@
+/*
+CSS Style Template
+
+selector {
+    dimension props;
+
+    layout and flow props;
+
+    margin, padding, border props;
+
+    color and font props;
+}
+*/
+
+* {
+    box-sizing: border-box !important;
+}
+
+html {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+
+    margin: 0px;
+    padding: 0px;
+
+    overflow-x: hidden;
+
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.wiki-container {
+    width: 80%;
+    height: 100%;
+
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+    align-items: center;
+}
+
+#wiki-controller {
+    width: 100%;
+    height: 30%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-size: max(24px, 5vw);
+}
+
+.wiki-input {
+    width: 100%;
+    height: 15%;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    font-size: 5vw;
+}
+
+.wiki-select-wrapper {
+    width: 60%;
+
+    display: grid;
+    place-items: center;
+}
+
+.wiki-button-wrapper {
+    width: 30%;
+
+    display: grid;
+    place-items: center;
+}
+
+#wiki-select, #wiki-button {
+    appearance: none;
+    -webkit-appearance: none;
+
+    width: 100%;
+    height: 100%;
+
+    border: 2px solid #cecece;
+    border-radius: 12px;
+
+    box-shadow: 1vw 2vw 3vw #afafaf59;
+
+    font-size: max(4vw, 22px);
+}
+
+#wiki-select {
+    padding: 0.5em;
+}
+
+#wiki-button {
+    background-color: #dbdbdb;
+
+    cursor: pointer;
+}
+
+#wiki-button:active {
+    background-color: #969696;
+}
+
+a {
+    text-align: center;
+}
