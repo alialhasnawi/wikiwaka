@@ -1,7 +1,5 @@
 # wikiwaka
 
-###### *this project is in the process of being refactored*
-
 ### **[wikiwaka](https://alialhasnawi.github.io/wikiwaka/)**
 *Nifty wikipedia article fetcher*
 - Uses the Web Speech API.
